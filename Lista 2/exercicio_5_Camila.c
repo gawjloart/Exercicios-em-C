@@ -1,35 +1,39 @@
-// 4) Calcule a média aritmética das 3 notas de um aluno e mostre, além do valor da média, uma mensagem de "Aprovado", caso a média seja igual ou superior a 6, ou a mensagem "reprovado", caso contrário.
+// 5) Uma empresa concederá um aumento de salário aos seus funcionários, variável de acordo com o cargo, conforme a tabela abaixo. 
+// Faça um algoritmo que leia o salário e o cargo de um funcionário e calcule o novo salário. 
+// Se o cargo do funcionário não estiver na tabela, ele deverá, então, receber 40% de aumento. Mostre o salário antigo, o novo salário e a diferença.
+
+// Meu github, github.com/sochni/ :)
+// Vitin o aluno predileto, pode falar.
 
 #include <stdio.h>
 
-int main(void){ 
-    float n1, n2, n3, media;
-    char nome[45];
+int main(void)
+{
+    int codigo;
+    float salario, salario_novo, salario_aumento;
 
-    printf("Atividade numero 4");
-    printf("Nome do aluno: ");
-    scanf("%s", &nome);
+    printf("Codigo do cargo: ");
+    scanf("%d", &codigo);
+    printf("Salario atual: ");
+    scanf("%f", &salario);
 
-    printf("Primeira nota: ");
-    scanf("%f", &n1);
-
-    printf("Segunda nota: ");
-    scanf("%f", &n2);
-
-    printf("Terceira nota: ");
-    scanf("%f", &n3);
-
-    media = (n1 + n2 + n3)/2;
-
-    if(media >= 6){
-        printf("Aluno %s\n", nome);
-        printf("Nota: %.2f\n", media);
-        printf("Resultado: Aprovado\n");
-    }
+    if(codigo == 101){
+        salario_aumento = salario * 0.10;
+        }
+    else if(codigo == 102){
+        salario_aumento = salario * 0.20;
+        }
+    else if(codigo == 103){
+        salario_aumento = salario * 0.30;
+        }
     else {
-        printf("Aluno %s\n", nome);
-        printf("Nota: %.2f\n", media);
-        printf("Resultado: Reprovado\n");
+        printf("\n\n\n\n.: - Codigo não existe - :.\n\n\n\n");
     }
+
+    salario_novo = salario_aumento + salario;
+
+    printf("Salario atual: R$ %10.2f\n", salario);
+    printf("Teve um aumento de: R$ %10.2f\n", salario_aumento);
+    printf("Novo salario: R$ %10.2f\n", salario_novo);
 
 }
