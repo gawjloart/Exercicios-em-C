@@ -2,4 +2,4 @@
 
 - Professora: Camila
 - Linguagem: C
-- Todos exercicios.
+- Todos exercicios dados como atividade na Faculdade.
