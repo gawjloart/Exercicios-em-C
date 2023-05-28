@@ -2,7 +2,7 @@
 
 #include <stdio.h>
 
-int eh_quadrado_perfeito(int num) {
+int e_quadrado_perfeito(int num) {
     // Verificar se o número é negativo
     if (num < 0) {
         return 0;
@@ -26,7 +26,7 @@ int main() {
     printf("Digite um número inteiro: ");
     scanf("%d", &numero);
 
-    if (eh_quadrado_perfeito(numero)) {
+    if (e_quadrado_perfeito(numero)) {
         printf("O número é um quadrado perfeito.\n");
     } else {
         printf("O número não é um quadrado perfeito.\n");
