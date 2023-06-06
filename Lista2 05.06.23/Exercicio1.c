@@ -8,7 +8,7 @@ int main() {
     
     int num, temp, resto, reverso = 0;
 
-    printf("Atividade [1] - Victor Adrelli\n\n");
+    printf("Atividade [1] - Vitin\n\n");
     printf("Digite um numero: ");
     scanf("%d", &num);
     
