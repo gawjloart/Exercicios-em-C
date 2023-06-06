@@ -7,7 +7,7 @@
 int main() {
     int num = 1;
     
-    printf("Atividade [4] - Victor Adrelli \n\n", num);
+    printf("Atividade [4] - Vitin \n\n", num);
     printf("A sequencia dos numeros 1 a 20, pulando 2 em 2 e: \n");
     printf("-------------------------------------------------\n");
     
