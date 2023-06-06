@@ -7,7 +7,7 @@
 int main() {
     int i = 10;
     
-        printf("Atividade [2] - Victor Adrelli \n\n", n);
+        printf("Atividade [2] - Vitin \n\n", n);
     
     do { 
         printf("%d", i);
