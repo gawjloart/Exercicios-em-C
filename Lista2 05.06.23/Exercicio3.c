@@ -8,7 +8,7 @@ int main() {
     int n = 25;
     int fibonacci1 = 0, fibonacci2 = 1, fibonacci3;
     
-    printf("Atividade [3] - Victor Adrelli \n", n);
+    printf("Atividade [3] - Vitin \n", n);
     printf("Os primeiros numeros da sequencia são: \n", n);
     
     printf("%d ", fibonacci1);
