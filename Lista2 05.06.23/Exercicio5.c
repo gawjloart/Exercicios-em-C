@@ -11,7 +11,7 @@
 int main() {
     int i, j;
     
-    printf("Atividade [5] - Victor Adrelli \n\n", num);
+    printf("Atividade [5] - Vitin \n\n", num);
     printf("Tabela de multiplicacao de 1 ao 10:\n");
     
     for(i = 1; i <= 10; i++) {
